@@ -1,0 +1,87 @@
+:root {
+  --cobalt-blue: #0047AB;
+  --cobalt-blue-light: #1E5FD9;
+  --cobalt-blue-dark: #003380;
+  --cobalt-blue-hover: #0056CC;
+  --white: #FFFFFF;
+  --gray-light: #F5F5F5;
+  --gray: #E0E0E0;
+  --gray-dark: #757575;
+  --text-primary: #212121;
+  --text-secondary: #757575;
+  --error: #D32F2F;
+  --success: #388E3C;
+}
+
+.App {
+  min-height: 100vh;
+  background-color: var(--gray-light);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: var(--cobalt-blue);
+  color: var(--white);
+}
+
+.btn-primary:hover {
+  background-color: var(--cobalt-blue-hover);
+}
+
+.btn-secondary {
+  background-color: var(--gray);
+  color: var(--text-primary);
+}
+
+.btn-secondary:hover {
+  background-color: var(--gray-dark);
+  color: var(--white);
+}
+
+.btn-danger {
+  background-color: var(--error);
+  color: var(--white);
+}
+
+.btn-danger:hover {
+  background-color: #B71C1C;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--gray);
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--cobalt-blue);
+}
+
+.card {
+  background-color: var(--white);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+
