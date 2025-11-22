@@ -9,7 +9,7 @@ React, Spring Boot, MySQL을 사용한 Todo List 애플리케이션입니다.
 - Todo 완료 상태 토글
 - 수정이력 상세보기
 - 마이페이지 (닉네임 변경, 계정 삭제)
-- 코발트블루 색상 테마
+
 
 ## 기술 스택
 
@@ -24,19 +24,12 @@ React, Spring Boot, MySQL을 사용한 Todo List 애플리케이션입니다.
 - React 18.2.0
 - React Router
 - Axios
-- CSS (코발트블루 테마)
 
-## 설치 및 실행
 
-### 1. 데이터베이스 설정
+## 실행
 
-MySQL에서 데이터베이스를 생성합니다:
 
-```sql
-CREATE DATABASE tododb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-```
-
-### 2. Backend 설정
+### 1. Backend 설정
 
 `backend/src/main/resources/application.properties` 파일에서 데이터베이스 연결 정보를 수정합니다:
 
@@ -54,7 +47,7 @@ mvn spring-boot:run
 
 Backend는 `http://localhost:8080`에서 실행됩니다.
 
-### 3. Frontend 설정
+### 2. Frontend 설정
 
 ```bash
 cd frontend
